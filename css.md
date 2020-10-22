@@ -58,3 +58,18 @@
   3
 </div>
 ```
+
+block과 inline의 특징이 합쳐진 유용한 설정이지만!
+
+요소와 요소 사이에 지정하지 않은 margin이 생기며,
+
+해상도에 따라 그 간격이 멋대로 변한다!
+
+또 inline-block으로 margin과 padding을 픽셀 단위로 레이아웃을 열심히 만들어도
+
+해상도에 따라 다르게 보이기 때문에 다른 설정이 필요하다.
+
+## **display : flex**
+
+- main axis(justify-content), cross axis(align-items)
+- flex-direction
